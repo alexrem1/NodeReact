@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-app.listen(5000);
+app.listen(PORT);
 
 // app: express app to register this route handler with
 // get: watch for incoming requests with this method
